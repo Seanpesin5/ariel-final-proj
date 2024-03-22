@@ -4,7 +4,7 @@ const protocol = 'mongodb';
 const host = 'localhost:27017';
 const mongoUrl = `${protocol}://${host}`;
 
-const options = { dbName: 'ariel' };
+const options = { dbName: 'finalproject' };
 
 function connect() {
     mongoose.connect(mongoUrl, options);
